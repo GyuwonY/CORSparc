@@ -4,7 +4,6 @@ import com.example.corsprac.dto.UserRequestDto;
 import com.example.corsprac.model.User;
 import com.example.corsprac.userservice.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
