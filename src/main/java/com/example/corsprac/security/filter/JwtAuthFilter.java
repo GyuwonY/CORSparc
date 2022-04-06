@@ -27,7 +27,6 @@ public class JwtAuthFilter extends AbstractAuthenticationProcessingFilter {
 
     public JwtAuthFilter(
             RequestMatcher requiresAuthenticationRequestMatcher,
-            @Autowired//지울수도있음
             HeaderTokenExtractor extractor
     ) {
         super(requiresAuthenticationRequestMatcher);
